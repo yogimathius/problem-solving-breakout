@@ -1,7 +1,11 @@
 # Lighthouse Labs | Problem Solving
 
-* [ ] The Learning Cycle
-* [ ] I'm Lost
+1. The Learning Cycle
+ - [ ] Create a dictionary
+ - [ ] Read your Code: "What is this? What happens next?"
+ - [ ] Create a Cheatsheet for Each Record
+ - [ ] Solve Problems
+2. I'm Lost
 
 ## The Learning Cycle
 
