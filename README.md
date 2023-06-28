@@ -310,8 +310,6 @@ If it feels like there are a lot of steps in the **process** component of your p
 
 ## I'm Lost
 
-![Not Sure? Ask!](https://github.com/WarrenUhrich/lighthouse-labs-problem-solving-breakout/blob/main/assets/06-how-to-learn-computer-programming.png?raw=true)
-
 Let's say we've gone through our processes and problem-solving steps. If you have broken down the problem(s) and find you are stuck on a particular piece, how can we get out of that bind? We can create a process for this too! Let's have a look at the steps we might take:
 
 1. Ask a Duck
