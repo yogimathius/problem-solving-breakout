@@ -1,8 +1,7 @@
 # Lighthouse Labs | Problem Solving
 
-[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/) | [Vimeo Video Recording](https://vimeo.com/780921472/58cbcfbf69)
-
 - [ ] The Learning Cycle
+- [ ] Problem Solving
 - [ ] I'm Lost
 
 ![How to Learn Computer Programming](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/01-how-to-learn-computer-programming.png?raw=true)
