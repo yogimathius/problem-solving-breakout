@@ -1,11 +1,11 @@
 # Lighthouse Labs | Problem Solving
 
-1. The Learning Cycle
- - [ ] Create a dictionary
- - [ ] Read your Code: "What is this? What happens next?"
- - [ ] Create a Cheatsheet for Each Record
- - [ ] Solve Problems
-2. I'm Lost
+[GitHub Repository Branch](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/) | [Vimeo Video Recording](https://vimeo.com/780921472/58cbcfbf69)
+
+- [ ] The Learning Cycle
+- [ ] I'm Lost
+
+![How to Learn Computer Programming](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/01-how-to-learn-computer-programming.png?raw=true)
 
 ## The Learning Cycle
 
@@ -13,10 +13,14 @@ There are a variety of strategies and steps you can use in your approach to lear
 
 1. Create a Dictionary of Terms
 2. Read your Code: "What is this? What happens next?"
-3. Create a Cheetsheet for Each Record in your Dictionary
+3. Create a Cheatsheet for Each Record in your Dictionary
 4. Solve Problems
 
+![The Learning Cycle](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/02-how-to-learn-computer-programming.png?raw=true)
+
 ### 1. Create a Dictionary of Terms
+
+![Dictionary](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/03-how-to-learn-computer-programming.png?raw=true)
 
 During lectures, it is important to spend most of your time listening and watching opposed to being distracted by note-taking. This may feel counter-intuitive, but it is in your best interest!
 
@@ -34,6 +38,8 @@ Writing hand-written notes can help you build stronger memory on new terms, but 
 Digital notes are not as effective in helping you build memory, but make for an incredible experience in terms of searchability. You can quickly skip to specific categories or definitions at-will. Depending on your note-taking tool of choice, you may be able to embed images, diagrams, or links to related resources. Consider programs like [Obsidian](https://obsidian.md/) if you'd like a dedicated note-taking application.
 
 ### 2. Read your Code: "What is this? What happens next?"
+
+![How to Read Code](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/04-how-to-learn-computer-programming.png?raw=true)
 
 Whether you're reviewing a lecture, reading an exercise, got help from a mentor, or have just written a line of code, take the time to sit with your rubber duck and ask yourself for each keyword, operator, or method:
 
@@ -93,6 +99,7 @@ const arrowFuncExpression = (one, or, more, params) => {
 
 arrowFunctionExpression('test3');
 ```
+
 ### Express Application
 
 Express is an `npm` package used to write HTTP-based web applications, offering ways for us to write simple request and response handling.
@@ -163,13 +170,15 @@ export default MyComponent;
 
 ### 4. Solve Problems
 
+![How to Solve Problems](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/05-how-to-learn-computer-programming.png?raw=true)
+
 While not all problems are made equal, there are consistent steps we can take to approach them efficiently. Solving problems effectively often mimics some of the steps you might take in test-driven development (TDD). Let's review some steps we can take:
 
 1. Identify Inputs
 2. Identify Outputs
 3. Identify Processing
 
-This is very similar to what we see take place when we *write* a function: input, processing, output.
+This is very similar to what we see take place when we _write_ a function: input, processing, output.
 
 #### Addition Example
 
@@ -177,12 +186,12 @@ Let's suppose we want to write a simple addition function. This can be handled i
 
 What will we need in order to perform addition? It may seem trivial, but this can be an important decision. Let's consider:
 
-* How should we receive inputs?
-  * As terminal arguments `process.argv`
-  * As standard input `process.stdin`
-  * As function arguments
-  * From an API (external resource)
-  * From a database (external resource)
+- How should we receive inputs?
+  - As terminal arguments `process.argv`
+  - As standard input `process.stdin`
+  - As function arguments
+  - From an API (external resource)
+  - From a database (external resource)
 
 For addition, any of these approaches may be something we consider on a case-by-case basis. For our case, unless otherwise specified, perhaps we can say we are writing a `function` that can take in two (2) arguments. Note that any changes to this requirment may change how we handle our inputs and how we ultimately code our solution! We might also want to note that we are expecting valud numbers. This is something we would want to check for if we were to write tests for this problem.
 
@@ -201,21 +210,21 @@ const addition = (num1 = 0, num2 = 0) => {
 
 Alright, that's a nice start. We should also decide what our end goal is. Without this in mind, we'll have trouble knowing if our solution is functioning properly:
 
-* What should our output look like?
-  * What data-type should we use?
-    * String
-    * Number (Should there be a specific format?)
-      * Decimals? How many?
-      * Should zero be allowed?
-      * Negatives?
-    * Boolean
-    * Undefined
-    * Null
-    * Object (Does the type or format matter?)
-      * Array
-      * Instance of a `class`?
-      * Are certain properties expected to be in the object?
-      * Should this be JSON-compatible? String or JS object?
+- What should our output look like?
+  - What data-type should we use?
+    - String
+    - Number (Should there be a specific format?)
+      - Decimals? How many?
+      - Should zero be allowed?
+      - Negatives?
+    - Boolean
+    - Undefined
+    - Null
+    - Object (Does the type or format matter?)
+      - Array
+      - Instance of a `class`?
+      - Are certain properties expected to be in the object?
+      - Should this be JSON-compatible? String or JS object?
 
 For our example, `Number` is probably the most sensible data-type to use, but again that could very much vary depending on our requirements. Let's proceed with this assumption:
 
@@ -237,6 +246,7 @@ const addition = (num1 = 0, num2 = 0) => {
   return Number(result);
 };
 ```
+
 In our function we return a Number value. Now if we try to experiment with our function, we can write examples of its use that have input and output. Of course, we are missing the processing, so our results are not correct just yet, but we're able to take strides toward that effect. At this point, you'll want to prepare examples like:
 
 ```JavaScript
@@ -257,10 +267,10 @@ $ addition(-3, 33) = 0
 
 We have input and output. Our output is just **wrong** right now. So, next step is to fix that. Our final step? Processing. The hard part! So, what needs to happen in order for us to receive two numbers and end up with our sum?
 
-* What needs to take place to take our inputs and generate the expected output?
-  * Are there any language functions or methods that would help us out?
-  * Do we need to iterate over anything? (consider loops)
-  * Do we need to make any decisions? (consider `if` or `switch`)
+- What needs to take place to take our inputs and generate the expected output?
+  - Are there any language functions or methods that would help us out?
+  - Do we need to iterate over anything? (consider loops)
+  - Do we need to make any decisions? (consider `if` or `switch`)
 
 For our example, we'll just need to make use of the addition `+` operator to get the desired result. Consider using a commenting syntax like [JSDoc](https://en.wikipedia.org/wiki/JSDoc) to keep track of each of your steps. Let's give it a shot:
 
@@ -304,37 +314,54 @@ $ addition(2, 3) = 5
 $ addition(-3, 33) = 30
 ```
 
-Much better! Now, these steps scale well for *any* problem you approach. Ensure you do planning in your processing phase... break the problem down into the smallest steps you can. **Do not** worry about doing things the *best* way the first time. Focus on getting your solution *working*. Once it is, commit, and then consider refactoring your code. Your end goal should be legibility of your code so that you and any team members can easily understand it hours, days, weeks, months, or even years down the road.
+Much better! Now, these steps scale well for _any_ problem you approach. Ensure you do planning in your processing phase... break the problem down into the smallest steps you can. **Do not** worry about doing things the _best_ way the first time. Focus on getting your solution _working_. Once it is, commit, and then consider refactoring your code. Your end goal should be legibility of your code so that you and any team members can easily understand it hours, days, weeks, months, or even years down the road.
 
 If it feels like there are a lot of steps in the **process** component of your problem solving, ask yourself if any of this can be further broken down, or might be worth breaking out into their own specialized / helper functions or methods with their own input(s), processing, and output(s).
 
 ## I'm Lost
 
+![Not Sure? Ask!](https://github.com/WarrenUhrich/lighthouse-labs-learning-how-to-learn-and-problem-solving-breakout/blob/2022.12.13-web-flex-all-cohorts/assets/06-how-to-learn-computer-programming.png?raw=true)
+
 Let's say we've gone through our processes and problem-solving steps. If you have broken down the problem(s) and find you are stuck on a particular piece, how can we get out of that bind? We can create a process for this too! Let's have a look at the steps we might take:
 
 1. Ask a Duck
-  * Say your problem and any potential solutions out loud, you'll process them again this way.
-  * You can talk through it with someone even if they aren't a programmer; again it helps you process the problem or potential solution again.
-  * It might give you a new idea!
+
+- Say your problem and any potential solutions out loud, you'll process them again this way.
+- You can talk through it with someone even if they aren't a programmer; again it helps you process the problem or potential solution again.
+- It might give you a new idea!
+
 2. Ask yourself "have I done this sort of thing before?"
-  * Do the definitions and examples in your dictionary or cheatsheet give you any ideas?
-  * Check previous lectures or exercises, see if you can identify a pattern you can follow to solve your current problem.
-  * Consider previous exercises that might have solved the same, or a similar, problem.
-  * Programmers are "the ultimate recyclers", don't be afraid to follow your previous examples.
-  * Don't expect to have every syntax or pattern memorized, definitely **do** make use of your previous code!
+
+- Do the definitions and examples in your dictionary or cheatsheet give you any ideas?
+- Check previous lectures or exercises, see if you can identify a pattern you can follow to solve your current problem.
+- Consider previous exercises that might have solved the same, or a similar, problem.
+- Programmers are "the ultimate recyclers", don't be afraid to follow your previous examples.
+- Don't expect to have every syntax or pattern memorized, definitely **do** make use of your previous code!
+
 3. Research
-  * See if you have any Bookmarks saved in your browser on the topic, these should be resources you understand and trust.
-  * Search for information on a function, class, method, operator, or keyword you are trying to use.
-    * Include the language in your search (`JavaScript`, `HTML`, `CSS`, `SQL`, `Ruby`.)
-    * Include the package or technology name if you're making use of one for this problem (`Mocha`, `Chai`, `Express`, `bcrypt`, `PostgreSQL`, `Node.js`.)
-    * Include the name of a trusted web site or resource for this topic (`MDN`, `W3C`, `CSS Tricks`, `PostgreSQL Tutorial`, `Ruby-Lang`.)
+
+- See if you have any Bookmarks saved in your browser on the topic, these should be resources you understand and trust.
+- Search for information on a function, class, method, operator, or keyword you are trying to use.
+  - Include the language in your search (`JavaScript`, `HTML`, `CSS`, `SQL`, `Ruby`.)
+  - Include the package or technology name if you're making use of one for this problem (`Mocha`, `Chai`, `Express`, `bcrypt`, `PostgreSQL`, `Node.js`.)
+  - Include the name of a trusted web site or resource for this topic (`MDN`, `W3C`, `CSS Tricks`, `PostgreSQL Tutorial`, `Ruby-Lang`.)
+
 4. Ask a Peer
-  * Others in your cohort likely have encountered a similar problem, brainstorm together to see what ideas you come up with.
+
+- Others in your cohort likely have encountered a similar problem, brainstorm together to see what ideas you come up with.
+
 5. Ask a Mentor
-  * Take advantage of this service, not all schools have a mentor offering!
-  * Don't be shy, mentors are happy to help with concerns both big and small.
-  * Feel free to jump into the queue to ask questions about your dictionary.
-    * Clarifications on definitions or examples.
-    * It can help to have an exercise open related to the topic so there is an example to work with and walk through together.
+
+- Take advantage of this service, not all schools have a mentor offering!
+- Don't be shy, mentors are happy to help with concerns both big and small.
+- Feel free to jump into the queue to ask questions about your dictionary.
+  - Clarifications on definitions or examples.
+  - It can help to have an exercise open related to the topic so there is an example to work with and walk through together.
+
 6. Visit during Instructor Office Hours
-  * These hours are here for a reason, ask instructors for clarifications on topics covered in-lecture or on exercises you're working on!
+
+- These hours are here for a reason, ask instructors for clarifications on topics covered in-lecture or on exercises you're working on!
+
+## Take Notes and Build Cheat Sheets in an Organized Fashion
+
+If you can't find the definitions and examples you've stored, you're not going to use them! Consider tools like [Obsidian](https://obsidian.md/) to improve searchability and orgnization of your notes.
